@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dubai Flying Dress Photoshoot | Desert & City Packages</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        goldAccent: '#c5a059',
+                        darkGreenBtn: '#10221f',
+                        darkSectionBg: '#121615',
+                        creamBg: '#faf8f5'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        h1, h2, h3, h4, .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body class="bg-[#faf8f5] text-gray-800 antialiased">
+
+    <!-- 1. TOP ANNOUNCEMENT BAR -->
+    <div class="bg-[#121c1a] text-[#b3b3b3] text-[11px] tracking-wide py-2.5 px-6 sm:px-8">
+        <div class="max-w-[1400px] mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-6">
+                <a href="tel:+971553780920" class="hover:text-white transition flex items-center gap-2">
+                    <i class="fa-solid fa-phone text-goldAccent text-[10px]"></i> +971 55 378 09 20
+                </a>
+                <a href="https://wa.me/971553780920" target="_blank" class="hover:text-white transition flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-goldAccent text-xs"></i> WhatsApp
+                </a>
+            </div>
+            <div class="flex items-center gap-2 text-center">
+                <i class="fa-solid fa-location-dot text-goldAccent text-[10px]"></i>
+                <span>Building 1, Bay Square, Business Bay, Dubai, UAE</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVIGATION HEADER -->
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+        <div class="max-w-[1400px] mx-auto px-6 sm:px-8 h-24 flex items-center justify-between">
+            <a href="#" class="flex items-center">
+                <img src="https://www.dubaiflyingdress.ae/wp-content/uploads/2024/01/dubai-flying-dress-logo.png" alt="Dubai Flying Dress" class="h-10 object-contain" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?q=80&w=200&auto=format&fit=crop';">
+            </a>
+            
+            <nav class="hidden lg:flex items-center space-x-7 text-[11px] font-bold tracking-[0.18em] text-gray-800 uppercase">
+                <a href="#" class="hover:text-goldAccent transition">Home</a>
+                <a href="#flying-dresses" class="hover:text-goldAccent transition">Flying Dresses</a>
+                <a href="#experiences" class="hover:text-goldAccent transition">Experiences</a>
+                <a href="#packages" class="hover:text-goldAccent transition">Packages</a>
+                <a href="#gallery" class="hover:text-goldAccent transition">Gallery</a>
+                <a href="#about" class="hover:text-goldAccent transition">About</a>
+                <a href="#blog" class="hover:text-goldAccent transition">Blog</a>
+                <a href="#contact" class="hover:text-goldAccent transition">Contact</a>
+            </nav>
+
+            <div class="hidden lg:flex items-center">
+                <a href="#packages" class="bg-[#10221f] text-white px-7 py-4 text-[11px] uppercase tracking-[0.2em] font-bold hover:bg-black transition shadow-sm">
+                    Book your shoot
+                </a>
+            </div>
+
+            <button id="menu-btn" class="lg:hidden text-gray-800 text-xl focus:outline-none">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-gray-200 px-6 py-4 space-y-3 text-xs font-bold uppercase tracking-wider">
+            <a href="#" class="block text-gray-800 hover:text-goldAccent py-1">Home</a>
+            <a href="#flying-dresses" class="block text-gray-800 hover:text-goldAccent py-1">Flying Dresses</a>
+            <a href="#experiences" class="block text-gray-800 hover:text-goldAccent py-1">Experiences</a>
+            <a href="#packages" class="block text-gray-800 hover:text-goldAccent py-1">Packages</a>
+            <a href="#how-it-works" class="block text-gray-800 hover:text-goldAccent py-1">How It Works</a>
+            <a href="#contact" class="block text-gray-800 hover:text-goldAccent py-1">Contact</a>
+            <div class="pt-3">
+                <a href="#packages" class="block text-center bg-[#10221f] text-white py-3 text-xs uppercase tracking-widest font-bold">Book your shoot</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative min-h-[85vh] lg:min-h-[90vh] bg-cover bg-center flex items-center overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?q=80&w=2000&auto=format&fit=crop');">
+        <div class="absolute inset-0 bg-black/20"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-transparent"></div>
+
+        <div class="relative max-w-[1400px] mx-auto px-6 sm:px-8 w-full py-20">
+            <div class="max-w-2xl">
+                <span class="text-[11px] uppercase tracking-[0.25em] text-[#d4b273] font-bold mb-4 block">
+                    Dubai Flying Dress
+                </span>
+                <h1 class="font-serif text-5xl sm:text-6xl lg:text-[76px] font-normal text-white mb-6 leading-[1.1]">
+                    Your Dubai.<br>
+                    Your Dress.<br>
+                    Your Moment.
+                </h1>
+                <p class="text-stone-200 text-sm sm:text-base font-light tracking-wide mb-10">
+                    Luxury flying dress photography experiences in Dubai.
+                </p>
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+                    <a href="#packages" class="bg-white text-gray-900 px-8 py-4 text-[11px] uppercase tracking-[0.2em] font-bold hover:bg-stone-100 transition shadow-lg text-center">
+                        Book your experience
+                    </a>
+                    <a href="#experiences" class="border border-white/60 text-white px-8 py-4 text-[11px] uppercase tracking-[0.2em] font-bold hover:bg-white/10 transition text-center">
+                        Explore dresses
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. THE EXPERIENCE SECTION -->
+    <section id="experiences" class="bg-[#faf8f5] py-20 lg:py-28 px-6 sm:px-12">
+        <div class="max-w-[1300px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
+            <div>
+                <span class="text-[11px] font-bold tracking-[0.25em] text-[#c5a059] uppercase block mb-6">
+                    THE EXPERIENCE
+                </span>
+                <h2 class="font-serif text-[40px] sm:text-[50px] lg:text-[58px] leading-[1.15] text-[#1c1b18] font-normal tracking-tight">
+                    More Than<br>
+                    a Photoshoot.<br>
+                    A Dubai Memory to<br>
+                    Keep Forever.
+                </h2>
+            </div>
+            <div class="lg:pt-10">
+                <p class="text-[17px] sm:text-[19px] leading-[1.75] text-[#52504b] font-light mb-8">
+                    Step into a flowing gown and experience a professionally directed Dubai flying dress photoshoot at some of the city's most breathtaking locations.
+                </p>
+                <p class="text-[17px] sm:text-[19px] leading-[1.75] text-[#52504b] font-light mb-10">
+                    From choosing your dress and location to posing guidance, photography and styling assistance, our team takes care of every detail so you can simply enjoy the experience.
+                </p>
+                <div class="w-12 h-[1px] bg-[#c5a059] mb-6"></div>
+                <a href="#how-it-works" class="inline-block text-[11px] font-bold tracking-[0.2em] text-[#1c1b18] uppercase border-b border-[#c5a059] pb-1 hover:text-[#c5a059] transition-colors">
+                    EXPLORE THE FLYING DRESS EXPERIENCE
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. PACKAGES SECTION -->
+    <section id="packages" class="bg-[#faf8f5] py-24 px-6 sm:px-10 border-t border-[#eae6de]">
+        <div class="max-w-[1350px] mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-[11px] font-bold tracking-[0.25em] text-[#c5a059] uppercase block mb-4">
+                    PACKAGES
+                </span>
+                <h2 class="font-serif text-[38px] sm:text-[46px] text-[#1c1b18] font-normal mb-4 leading-tight">
+                    Choose your flying dress experience.
+                </h2>
+                <p class="text-[14px] sm:text-[15px] text-[#636058] font-light leading-relaxed">
+                    Every package includes your flying dress, styling assistance and professional photography. Choose the experience that suits your Dubai story.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
+                <!-- Card 1 -->
+                <div class="bg-[#faf8f5] border border-[#e5e0d8] p-7 sm:p-8 flex flex-col justify-between shadow-sm relative">
+                    <div>
+                        <div class="mb-5 text-[#c5a059] text-xl"><i class="fa-solid fa-gem"></i></div>
+                        <h3 class="font-serif text-[22px] text-[#1c1b18] font-normal mb-4">Signature<br>Dress Rental</h3>
+                        <div class="mb-1 flex items-baseline gap-1">
+                            <span class="text-xs font-serif text-[#1c1b18]">$</span>
+                            <span class="font-serif text-[36px] text-[#1c1b18] leading-none">120</span>
+                        </div>
+                        <span class="text-[10px] font-bold tracking-widest text-[#938e85] block mb-6">AED 450</span>
+                        <p class="text-[12px] sm:text-[13px] text-[#636058] leading-relaxed font-light mb-8">
+                            Rent a flying dress in Dubai and shoot on your own terms — perfect for content creators and travellers bringing their own photographer. Your chosen gown arrives styled, steamed and ready for the camera.
+                        </p>
+                        <ul class="space-y-3 border-t border-[#eae6de] pt-6 mb-8 text-[12px] text-[#52504b]">
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> 1 flying dress of your choice</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Full-day dress rental</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Pick-up & drop-off service</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Dress prepared & ready for the photoshoot</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/971553780920" target="_blank" class="block text-center border border-[#10221f] text-[#10221f] py-3 text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-[#10221f] hover:text-white transition-colors">
+                        CHOOSE SIGNATURE DRESS RENTAL
+                    </a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-[#faf8f5] border border-[#e5e0d8] p-7 sm:p-8 flex flex-col justify-between shadow-sm relative">
+                    <div>
+                        <div class="mb-5 text-[#c5a059] text-xl"><i class="fa-solid fa-camera"></i></div>
+                        <h3 class="font-serif text-[22px] text-[#1c1b18] font-normal mb-4">Silver Flying Dress</h3>
+                        <div class="mb-1 flex items-baseline gap-1">
+                            <span class="text-xs font-serif text-[#1c1b18]">$</span>
+                            <span class="font-serif text-[36px] text-[#1c1b18] leading-none">380</span>
+                        </div>
+                        <span class="text-[10px] font-bold tracking-widest text-[#938e85] block mb-6">AED 1,400</span>
+                        <p class="text-[12px] sm:text-[13px] text-[#636058] leading-relaxed font-light mb-8">
+                            The perfect introduction to the Dubai flying dress photoshoot, designed for solo travellers and couples. Choose a golden-hour desert backdrop or the city skyline, and let our team direct every frame.
+                        </p>
+                        <ul class="space-y-3 border-t border-[#eae6de] pt-6 mb-8 text-[12px] text-[#52504b]">
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> 10 professionally retouched high-resolution photos</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Up to 60-minute professional photoshoot</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> 1 flying dress of your choice</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Dubai desert or city location</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Short vertical reel for social media</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Dedicated female photoshoot assistant</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Gallery of best selected JPEG images</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Round-trip hotel pick-up & drop-off</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/971553780920" target="_blank" class="block text-center border border-[#10221f] text-[#10221f] py-3 text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-[#10221f] hover:text-white transition-colors">
+                        CHOOSE SILVER FLYING DRESS
+                    </a>
+                </div>
+
+                <!-- Card 3 (Most Popular) -->
+                <div class="bg-[#faf8f5] border-2 border-[#10221f] p-7 sm:p-8 flex flex-col justify-between shadow-md relative">
+                    <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-[#c5a059] text-white text-[9px] uppercase font-bold tracking-[0.25em] px-4 py-1">
+                        MOST POPULAR
+                    </div>
+                    <div>
+                        <div class="mb-5 text-[#c5a059] text-xl"><i class="fa-regular fa-star"></i></div>
+                        <h3 class="font-serif text-[22px] text-[#1c1b18] font-normal mb-4">Gold Flying Dress</h3>
+                        <div class="mb-1 flex items-baseline gap-1">
+                            <span class="text-xs font-serif text-[#1c1b18]">$</span>
+                            <span class="font-serif text-[36px] text-[#1c1b18] leading-none">500</span>
+                        </div>
+                        <span class="text-[10px] font-bold tracking-widest text-[#938e85] block mb-6">AED 1,850</span>
+                        <p class="text-[12px] sm:text-[13px] text-[#636058] leading-relaxed font-light mb-8">
+                            More time, more gowns, more images. The Gold experience gives you two flying dresses and an unhurried Dubai desert or city photoshoot — our most-loved package for solo guests and couples alike.
+                        </p>
+                        <ul class="space-y-3 border-t border-[#eae6de] pt-6 mb-8 text-[12px] text-[#52504b]">
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> 2 flying dresses of your choice</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> 15 professionally retouched high-resolution photos</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> 90-minute professional photoshoot</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Dubai desert or city location</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Dedicated female photoshoot assistant</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Short vertical reel for social media</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Gallery of best selected JPEG images</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Round-trip hotel pick-up & drop-off</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/971553780920" target="_blank" class="block text-center bg-[#10221f] text-white py-3 text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-black transition-colors">
+                        CHOOSE GOLD FLYING DRESS
+                    </a>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-[#faf8f5] border border-[#e5e0d8] p-7 sm:p-8 flex flex-col justify-between shadow-sm relative">
+                    <div>
+                        <div class="mb-5 text-[#c5a059] text-xl"><i class="fa-solid fa-ship"></i></div>
+                        <h3 class="font-serif text-[22px] text-[#1c1b18] font-normal mb-4">Luxury Yacht<br>Flying Dress</h3>
+                        <div class="mb-1 flex items-baseline gap-1">
+                            <span class="text-xs font-serif text-[#1c1b18]">$</span>
+                            <span class="font-serif text-[36px] text-[#1c1b18] leading-none">1,150</span>
+                        </div>
+                        <span class="text-[10px] font-bold tracking-widest text-[#938e85] block mb-6">AED 4,200</span>
+                        <p class="text-[12px] sm:text-[13px] text-[#636058] leading-relaxed font-light mb-8">
+                            Our most exclusive Dubai flying dress photoshoot. Step aboard a private yacht with the coastline, open sea and skyline behind you — a luxury photoshoot in Dubai as rare and memorable as the setting itself.
+                        </p>
+                        <ul class="space-y-3 border-t border-[#eae6de] pt-6 mb-8 text-[12px] text-[#52504b]">
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Private yacht experience</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> 2-hour professional photoshoot</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> 1 flying dress of your choice</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> 20 professionally retouched high-resolution photos</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Gallery of best selected JPEG images</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Dedicated female photoshoot assistant</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Vertical reel for social media</li>
+                            <li class="flex items-start gap-2"><span class="text-[#1c1b18]">✓</span> Round-trip hotel pick-up & drop-off</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/971553780920" target="_blank" class="block text-center border border-[#10221f] text-[#10221f] py-3 text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-[#10221f] hover:text-white transition-colors">
+                        CHOOSE LUXURY YACHT FLYING DRESS
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. HOW IT WORKS SECTION -->
+    <section id="how-it-works" class="bg-[#121615] text-white py-24 px-6 sm:px-12 border-t border-stone-800">
+        <div class="max-w-[1300px] mx-auto">
+            <div class="mb-16">
+                <span class="text-[11px] font-bold tracking-[0.25em] text-[#c5a059] uppercase block mb-4">
+                    HOW IT WORKS
+                </span>
+                <h2 class="font-serif text-[42px] sm:text-[52px] text-white font-normal mb-3 leading-tight">
+                    Your Dubai Flying Dress Photoshoot
+                </h2>
+                <p class="font-serif italic text-stone-300 text-lg mb-6">
+                    Three simple steps. One unforgettable experience.
+                </p>
+                <p class="text-stone-400 text-sm sm:text-base font-light max-w-2xl leading-relaxed">
+                    From choosing your dress to receiving your final gallery, we make your Dubai flying dress photoshoot simple, comfortable and completely organized.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-14 mb-20">
+                <div>
+                    <span class="text-[10px] font-bold tracking-[0.25em] text-[#c5a059] uppercase block mb-4">STEP 01</span>
+                    <h3 class="font-serif text-[24px] text-white font-normal mb-4">Choose Your Flying<br>Dress & Location</h3>
+                    <p class="text-stone-400 text-[13px] sm:text-[14px] leading-relaxed font-light">
+                        Select your favourite flying dress and choose your photoshoot setting — from the golden Dubai desert to iconic city locations. Message us on WhatsApp and our team will help you check availability, choose your dress and find the best shooting time.
+                    </p>
+                </div>
+                <div>
+                    <span class="text-[10px] font-bold tracking-[0.25em] text-[#c5a059] uppercase block mb-4">STEP 02</span>
+                    <h3 class="font-serif text-[24px] text-white font-normal mb-4">Enjoy Your Flying<br>Dress Photoshoot</h3>
+                    <p class="text-stone-400 text-[13px] sm:text-[14px] leading-relaxed font-light">
+                        Meet your professional photographer and female assistant at your selected location. We'll guide you through posing, dress movements and different angles while creating the signature flying dress effect that makes every image stand out.
+                    </p>
+                </div>
+                <div>
+                    <span class="text-[10px] font-bold tracking-[0.25em] text-[#c5a059] uppercase block mb-4">STEP 03</span>
+                    <h3 class="font-serif text-[24px] text-white font-normal mb-4">Receive Your Edited<br>Photos & Video</h3>
+                    <p class="text-stone-400 text-[13px] sm:text-[14px] leading-relaxed font-light">
+                        After your session, receive your professionally retouched images through a private online gallery. Selected packages also include vertical video content perfect for Instagram Reels, TikTok and sharing your Dubai experience.
+                    </p>
+                </div>
+            </div>
+
+            <div class="text-center text-[10px] sm:text-[11px] font-bold tracking-[0.25em] text-stone-400 uppercase mb-10">
+                PROFESSIONAL PHOTOGRAPHER • FEMALE ASSISTANT • DESERT & CITY LOCATIONS • HOTEL TRANSFER AVAILABLE
+            </div>
+
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="#packages" class="w-full sm:w-auto bg-white text-gray-900 px-8 py-4 text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-stone-200 transition text-center shadow-md">
+                    BOOK YOUR DUBAI PHOTOSHOOT
+                </a>
+                <a href="https://wa.me/971553780920" target="_blank" class="w-full sm:w-auto border border-white/60 text-white px-8 py-4 text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-white/10 transition text-center">
+                    CHAT WITH US ON WHATSAPP
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. WHY DUBAI FLYING DRESS SECTION -->
+    <section class="bg-[#faf8f5] py-24 px-6 sm:px-12 border-t border-[#eae6de]">
+        <div class="max-w-[1300px] mx-auto">
+            <div class="max-w-2xl mb-16">
+                <span class="text-[11px] font-bold tracking-[0.25em] text-[#c5a059] uppercase block mb-4">
+                    WHY DUBAI FLYING DRESS
+                </span>
+                <h2 class="font-serif text-[42px] sm:text-[52px] text-[#1c1b18] font-normal mb-4 leading-tight">
+                    Everything is taken care of.
+                </h2>
+                <p class="text-[14px] sm:text-[15px] text-[#636058] font-light leading-relaxed">
+                    From your gown to the final photograph, our team manages every detail so you can simply enjoy the experience.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+                <div>
+                    <div class="mb-4 text-[#c5a059] text-xl"><i class="fa-solid fa-gem"></i></div>
+                    <h3 class="font-serif text-[20px] text-[#1c1b18] font-normal mb-3">Premium Flying Dresses</h3>
+                    <p class="text-[13px] text-[#636058] leading-relaxed font-light">
+                        Silk and chiffon gowns with metres of train, maintained in studio and fitted to you.
+                    </p>
+                </div>
+                <div>
+                    <div class="mb-4 text-[#c5a059] text-xl"><i class="fa-solid fa-camera"></i></div>
+                    <h3 class="font-serif text-[20px] text-[#1c1b18] font-normal mb-3">Professional Photographer</h3>
+                    <p class="text-[13px] text-[#636058] leading-relaxed font-light">
+                        Directed throughout, so you never have to wonder how to stand or where to look.
+                    </p>
+                </div>
+                <div>
+                    <div class="mb-4 text-[#c5a059] text-xl"><i class="fa-solid fa-scissors"></i></div>
+                    <h3 class="font-serif text-[20px] text-[#1c1b18] font-normal mb-3">Dedicated Styling Assistant</h3>
+                    <p class="text-[13px] text-[#636058] leading-relaxed font-light">
+                        On hand to fly the fabric, adjust the gown and keep every frame looking effortless.
+                    </p>
+                </div>
+                <div>
+                    <div class="mb-4 text-[#c5a059] text-xl"><i class="fa-solid fa-location-dot"></i></div>
+                    <h3 class="font-serif text-[20px] text-[#1c1b18] font-normal mb-3">Iconic Dubai Locations</h3>
+                    <p class="text-[13px] text-[#636058] leading-relaxed font-light">
+                        Desert, skyline, marina and coast — with the permits and timing handled for you.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. CLIENT STORIES SECTION -->
+    <section id="gallery" class="bg-[#faf8f5] py-24 px-6 sm:px-12 border-t border-[#eae6de]">
+        <div class="max-w-[1300px] mx-auto">
+            <div class="max-w-2xl mb-16">
+                <span class="text-[11px] font-bold tracking-[0.25em] text-[#c5a059] uppercase block mb-4">
+                    CLIENT STORIES
+                </span>
+                <h2 class="font-serif text-[42px] sm:text-[52px] text-[#1c1b18] font-normal leading-tight">
+                    Memories they'll never forget.
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-[#faf8f5] border border-[#e5e0d8] p-8 sm:p-10 flex flex-col justify-between shadow-sm">
+                    <div>
+                        <div class="flex items-center gap-1.5 text-[#c5a059] text-xs mb-6">
+                            <span>◆</span><span>◆</span><span>◆</span><span>◆</span><span>◆</span>
+                        </div>
+                        <p class="font-serif text-[15px] sm:text-[16px] leading-[1.8] text-[#1c1b18] font-normal mb-8">
+                            Such a beautiful experience in Dubai. The team made everything easy from the hotel pick-up to choosing the dress and posing in the desert. The photos came out amazing and the flying dress looked even better than I expected. Definitely one of my favorite memories from Dubai.
+                        </p>
+                    </div>
+                    <div>
+                        <span class="font-serif text-[15px] text-[#1c1b18] font-bold block">Elif</span>
+                        <span class="text-[10px] font-bold tracking-[0.2em] text-[#938e85] uppercase block">TÜRKIYE</span>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-[#faf8f5] border border-[#e5e0d8] p-8 sm:p-10 flex flex-col justify-between shadow-sm">
+                    <div>
+                        <div class="flex items-center gap-1.5 text-[#c5a059] text-xs mb-6">
+                            <span>◆</span><span>◆</span><span>◆</span><span>◆</span><span>◆</span>
+                        </div>
+                        <p class="font-serif text-[15px] sm:text-[16px] leading-[1.8] text-[#1c1b18] font-normal mb-8">
+                            I booked the Dubai flying dress photoshoot during my holiday and it was honestly such a fun experience. The female assistant helped with the dress and poses, and the photographer made me feel very comfortable. The desert location was stunning and the edited photos looked natural and elegant.
+                        </p>
+                    </div>
+                    <div>
+                        <span class="font-serif text-[15px] text-[#1c1b18] font-bold block">Naledi</span>
+                        <span class="text-[10px] font-bold tracking-[0.2em] text-[#938e85] uppercase block">SOUTH AFRICA</span>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-[#faf8f5] border border-[#e5e0d8] p-8 sm:p-10 flex flex-col justify-between shadow-sm">
+                    <div>
+                        <div class="flex items-center gap-1.5 text-[#c5a059] text-xs mb-6">
+                            <span>◆</span><span>◆</span><span>◆</span><span>◆</span><span>◆</span>
+                        </div>
+                        <p class="font-serif text-[15px] sm:text-[16px] leading-[1.8] text-[#1c1b18] font-normal mb-8">
+                            I wanted something special to remember my trip to Dubai and this photoshoot was perfect. Everything was well organized, the dress was beautiful, and the team knew exactly how to capture the desert light. I received so many great photos and videos from the session.
+                        </p>
+                    </div>
+                    <div>
+                        <span class="font-serif text-[15px] text-[#1c1b18] font-bold block">Aigerim</span>
+                        <span class="text-[10px] font-bold tracking-[0.2em] text-[#938e85] uppercase block">KAZAKHSTAN</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. JOURNAL SECTION -->
+    <section id="blog" class="bg-[#faf8f5] py-24 px-6 sm:px-12 border-t border-[#eae6de]">
+        <div class="max-w-[1300px] mx-auto">
+            <div class="max-w-2xl mb-12">
+                <span class="text-[11px] font-bold tracking-[0.25em] text-[#c5a059] uppercase block mb-4">
+                    JOURNAL
+                </span>
+                <h2 class="font-serif text-[42px] sm:text-[52px] text-[#1c1b18] font-normal leading-tight">
+                    From Dubai, with love.
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Article 1 -->
+                <div>
+                    <div class="overflow-hidden mb-5">
+                        <img src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=800&auto=format&fit=crop" alt="Flying Dress Guide" class="w-full h-[280px] object-cover hover:scale-105 transition duration-500">
+                    </div>
+                    <span class="text-[10px] font-bold tracking-[0.2em] text-[#c5a059] uppercase block mb-2">FLYING DRESS GUIDE</span>
+                    <h3 class="font-serif text-[20px] text-[#1c1b18] mb-3 leading-snug">
+                        Flying Dress Photoshoot Dubai: Everything You Need to Know
+                    </h3>
+                    <p class="text-[13px] text-[#636058] font-light leading-relaxed mb-6">
+                        Thinking about booking a flying dress photoshoot in Dubai? Discover how the experience works from choosing your dress to receiving your final photos.
+                    </p>
+                    <div class="flex items-center justify-between text-[10px] font-bold tracking-[0.2em] uppercase text-[#938e85]">
+                        <span>LAST UPDATED: AUGUST 2026</span>
+                        <a href="#" class="text-[#1c1b18] hover:text-[#c5a059] transition">READ ARTICLE</a>
+                    </div>
+                </div>
+
+                <!-- Article 2 -->
+                <div>
+                    <div class="overflow-hidden mb-5">
+                        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=800&auto=format&fit=crop" alt="Dubai Desert Photoshoot" class="w-full h-[280px] object-cover hover:scale-105 transition duration-500">
+                    </div>
+                    <span class="text-[10px] font-bold tracking-[0.2em] text-[#c5a059] uppercase block mb-2">DUBAI DESERT</span>
+                    <h3 class="font-serif text-[20px] text-[#1c1b18] mb-3 leading-snug">
+                        Dubai Desert Photoshoot: Best Time, What to Expect & Photography Tips
+                    </h3>
+                    <p class="text-[13px] text-[#636058] font-light leading-relaxed mb-6">
+                        Golden dunes, dramatic light and open horizons — discover everything you need to know before planning your Dubai desert photoshoot.
+                    </p>
+                    <div class="flex items-center justify-between text-[10px] font-bold tracking-[0.2em] uppercase text-[#938e85]">
+                        <span>LAST UPDATED: AUGUST 2026</span>
+                        <a href="#" class="text-[#1c1b18] hover:text-[#c5a059] transition">READ ARTICLE</a>
+                    </div>
+                </div>
+
+                <!-- Article 3 -->
+                <div>
+                    <div class="overflow-hidden mb-5">
+                        <img src="https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?q=80&w=800&auto=format&fit=crop" alt="Flying Dress Inspiration" class="w-full h-[280px] object-cover hover:scale-105 transition duration-500">
+                    </div>
+                    <span class="text-[10px] font-bold tracking-[0.2em] text-[#c5a059] uppercase block mb-2">FLYING DRESS INSPIRATION</span>
+                    <h3 class="font-serif text-[20px] text-[#1c1b18] mb-3 leading-snug">
+                        Dubai Flying Dress Photoshoot Ideas: Best Colors, Poses & Locations
+                    </h3>
+                    <p class="text-[13px] text-[#636058] font-light leading-relaxed mb-6">
+                        Looking for flying dress inspiration in Dubai? Discover beautiful dress colors, posing ideas and locations for dramatic desert and city photographs.
+                    </p>
+                    <div class="flex items-center justify-between text-[10px] font-bold tracking-[0.2em] uppercase text-[#938e85]">
+                        <span>LAST UPDATED: AUGUST 2026</span>
+                        <a href="#" class="text-[#1c1b18] hover:text-[#c5a059] transition">READ ARTICLE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. INSTAGRAM SECTION -->
+    <section class="bg-white py-20 px-6 sm:px-12 border-t border-[#eae6de]">
+        <div class="max-w-[1300px] mx-auto flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
+            <div>
+                <span class="text-[11px] font-bold tracking-[0.25em] text-[#c5a059] uppercase block mb-3">
+                    INSTAGRAM
+                </span>
+                <h2 class="font-serif text-[38px] sm:text-[46px] text-[#1c1b18] font-normal leading-tight">
+                    Follow the story.
+                </h2>
+            </div>
+            <div class="flex items-center gap-6">
+                <span class="text-[13px] text-[#52504b] font-light">@dubairentaldress</span>
+                <a href="https://instagram.com" target="_blank" class="border border-[#10221f] text-[#10221f] px-8 py-3.5 text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-[#10221f] hover:text-white transition-colors">
+                    FOLLOW US
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. EXACT REPLICATED FOOTER SECTION -->
+    <footer class="bg-[#121615] text-white pt-20 pb-10 px-6 sm:px-12 border-t border-stone-800">
+        <!-- Main Top Columns -->
+        <div class="max-w-[1300px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 text-[12px] sm:text-[13px] text-stone-300 font-light pb-20">
+            
+            <!-- Col 1: Brand Info -->
+            <div>
+                <h3 class="font-serif text-[14px] font-bold tracking-[0.15em] text-[#c5a059] uppercase mb-6">
+                    DUBAI FLYING DRESS
+                </h3>
+                <p class="leading-relaxed text-stone-300 font-light">
+                    Luxury Dubai flying dress photoshoots in the desert and iconic city locations. Choose your gown and enjoy professional photography, posing guidance and dedicated assistance for an unforgettable photoshoot experience in Dubai.
+                </p>
+            </div>
+
+            <!-- Col 2: Flying Dresses -->
+            <div>
+                <h4 class="font-serif text-[11px] font-bold tracking-[0.2em] text-[#c5a059] uppercase mb-6">
+                    FLYING DRESSES
+                </h4>
+                <ul class="space-y-3 font-light">
+                    <li><a href="#flying-dresses" class="hover:text-white transition">View All Flying Dresses</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 3: Explore Links -->
+            <div>
+                <h4 class="font-serif text-[11px] font-bold tracking-[0.2em] text-[#c5a059] uppercase mb-6">
+                    EXPLORE
+                </h4>
+                <ul class="space-y-3 font-light">
+                    <li><a href="#about" class="hover:text-white transition">About Us</a></li>
+                    <li><a href="#packages" class="hover:text-white transition">Flying Dress Packages</a></li>
+                    <li><a href="#gallery" class="hover:text-white transition">Dubai Photoshoot Gallery</a></li>
+                    <li><a href="#rental" class="hover:text-white transition">Flying Dress Rental</a></li>
+                    <li><a href="#blog" class="hover:text-white transition">Blog</a></li>
+                    <li><a href="#contact" class="hover:text-white transition">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 4: Contact Info -->
+            <div>
+                <h4 class="font-serif text-[11px] font-bold tracking-[0.2em] text-[#c5a059] uppercase mb-6">
+                    CONTACT
+                </h4>
+                <ul class="space-y-3 font-light">
+                    <li class="flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-goldAccent"></i>
+                        <a href="https://wa.me/971553780920" target="_blank" class="hover:text-white transition">WhatsApp</a>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <i class="fa-solid fa-phone text-goldAccent text-[10px]"></i>
+                        <a href="tel:+971553780920" class="hover:text-white transition">+971 55 378 09 20</a>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <i class="fa-regular fa-envelope text-goldAccent"></i>
+                        <a href="mailto:hello@dubaiflyingdress.ae" class="hover:text-white transition">hello@dubaiflyingdress.ae</a>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <i class="fa-solid fa-location-dot text-goldAccent mt-1 text-[11px]"></i>
+                        <span>Building 1, Bay Square, Business Bay, Dubai, UAE</span>
+                    </li>
+                    <li class="flex items-center gap-2 pt-1">
+                        <i class="fa-brands fa-instagram text-goldAccent"></i>
+                        <a href="https://instagram.com" target="_blank" class="hover:text-white transition">Instagram</a>
+                    </li>
+                </ul>
+                <p class="mt-6 text-[11px] text-stone-400 font-light leading-relaxed">
+                    Available 7 days a week • Advance booking recommended
+                </p>
+            </div>
+        </div>
+
+        <!-- Middle CTA Banner Container -->
+        <div class="border-t border-stone-800 py-12">
+            <div class="max-w-[1300px] mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+                <div>
+                    <h2 class="font-serif text-[28px] sm:text-[34px] text-white font-normal mb-2 leading-tight">
+                        Ready for Your Dubai Flying Dress Experience?
+                    </h2>
+                    <p class="text-[13px] text-stone-400 font-light">
+                        Choose your favourite dress and photoshoot package and let us create an unforgettable Dubai experience.
+                    </p>
+                </div>
+                <div class="flex items-center gap-4 w-full md:w-auto">
+                    <a href="#packages" class="bg-white text-gray-900 px-7 py-3.5 text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-stone-200 transition text-center w-full md:w-auto">
+                        VIEW PACKAGES
+                    </a>
+                    <a href="https://wa.me/971553780920" target="_blank" class="border border-white/60 text-white px-7 py-3.5 text-[10px] uppercase tracking-[0.2em] font-bold hover:bg-white/10 transition text-center w-full md:w-auto">
+                        WHATSAPP US
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sub Footer Legal Links -->
+        <div class="max-w-[1300px] mx-auto pt-8 border-t border-stone-800/60 flex flex-col sm:flex-row justify-between items-center text-[11px] text-stone-500 font-light gap-4">
+            <p>© 2026 Dubai Flying Dress. All Rights Reserved.</p>
+            <div class="flex gap-6">
+                <a href="#" class="hover:text-stone-300 transition">Privacy Policy</a>
+                <a href="#" class="hover:text-stone-300 transition">Terms & Conditions</a>
+                <a href="#" class="hover:text-stone-300 transition">Cancellation Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
